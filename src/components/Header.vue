@@ -4,33 +4,34 @@
             <!-- Header socials -->
             <div class="d-flex justify-content-between my-3 header_links">
                 <div>
-                    <a href="#" class="mx-2 font_xs">Download app <span class="ios_btn">iOS</span></a>
-                    <a href="#" class="mx-1 font_xs">Advertise with us</a>
+                    <a href="#" class="mx-3 font_xs">Download app <span class="ios_btn">iOS</span></a>
+                    <a href="#" class="mx-3 font_xs">Advertise with us</a>
                 </div>
                 <div>
                     <ul>
                         <li class="d-inline-block">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
                         </li>
                         <li class="d-inline-block">
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
                         </li>
                         <li class="d-inline-block">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
                         </li>
                         <li class="d-inline-block">
-                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
 
             <!-- Logo and Menu -->
-            <div class="d-flex justify-content-center align-items-center m-5">
+            <div class="d-flex justify-content-center align-items-center mt-5">
                 <div>
                     <img src="../assets/img/avada-food-logo.png" alt="">
-                    <ul class="header_menu">
-                        <li v-for="(li, index) in headerUl" :key="index" class="my-5 mx-4 main_text_color" :class="{active: li.isActive}"> <a href="#">{{li.text}}</a> </li>
+                    <ul class="header_menu mt-5 mb-3">
+                        <li v-for="(li, index) in headerUl" :key="index" class="mx-4 main_text_color" :class="{active: li.isActive}"> <a href="#">{{li.text}}</a> </li>
+                        <li class="mx-4 main_text_color"><i class="fas fa-search"></i></li>
                     </ul>
                 </div>
             </div>
@@ -79,7 +80,7 @@ export default {
 @import '../style/variables.scss';
 
 .header_links{
-    color: #6a6b6c;
+    color: $secondary_text_color;
     .ios_btn{
         font-size: 7px;
         padding: 3px 8px;
@@ -88,7 +89,7 @@ export default {
         border-radius: 5px;
     }
     i{
-        color: #9c9894;
+        color: $secondary_text_color;
         margin: 0 15px;
     }
 }
@@ -107,5 +108,4 @@ img{
         }
     }
 }
-
 </style>

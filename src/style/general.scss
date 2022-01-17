@@ -1,10 +1,15 @@
 @import '~bootstrap/scss/bootstrap.scss';
 @import './variables.scss';
 
-// CONTAINERS
+// CONTAINERS AND DISPLAYS
 .container_65{
     width: 65%;
     margin: auto;
+}
+.central_align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 // GENERALS
@@ -27,4 +32,12 @@ a{
 }
 .main_text_color{
     color: $main_text_color;
+}
+
+// GRAPHICS
+.orange_btn{
+    display: inline-block;
+    background-color: $main_color;
+    padding: 10px 25px;
+    color: white;
 }
