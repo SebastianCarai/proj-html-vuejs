@@ -1,16 +1,20 @@
 <template>
     <main>
         <FoodieJournal />
+        <PopularRecipes />
     </main>
 </template>
 
 <script>
 import FoodieJournal from './FoodieJournal.vue';
+import PopularRecipes from './PopularRecipes.vue';
+
 
 export default {
     name: 'Main',
     components: {
-        FoodieJournal
+        FoodieJournal,
+        PopularRecipes
     },
     data: function(){
         return{

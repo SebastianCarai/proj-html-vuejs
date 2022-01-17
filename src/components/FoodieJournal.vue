@@ -1,6 +1,6 @@
 <template>
     <div class="container_65 foodie_journal">
-        <h3 class="section_title mb-4">FOODIE JOURNAL</h3>
+        <h3 class="section_title mt-2 mb-4">FOODIE JOURNAL</h3>
         <div class="d-flex justify-content-between">
             <div class="card_container" v-for="(singleInfo, index) in foodieJournalArray" :key="index">
                 <FoodCard :foodieArray="singleInfo" />
@@ -22,15 +22,18 @@ export default {
             foodieJournalArray:[
                 {
                     imgPath: 'single-post-img3-400x263.jpg',
-                    cardText: 'Food Corner: Top Japanese Restaurants for Sushi'
+                    cardText: 'Food Corner: Top Japanese Restaurants for Sushi',
+                    cardCredits: 'By admin | March 25th, 2019'
                 },
                 {
                     imgPath: 'fi-roundup-400x263.jpg',
-                    cardText: 'Roundup: My New Favourite Recipes For Halty Living'
+                    cardText: 'Roundup: My New Favourite Recipes For Halty Living',
+                    cardCredits: 'By admin | March 25th, 2019'
                 },
                 {
                     imgPath: 'fi-toasts-400x263.jpg',
-                    cardText: 'Why These Toasts with Tea are My New Favorite'
+                    cardText: 'Why These Toasts with Tea are My New Favorite',
+                    cardCredits: 'By admin | March 25th, 2019'
                 }
             ]
         }   

@@ -27,6 +27,9 @@ a{
 .font_xs{
     font-size: 12px;
 }
+.font_m{
+    font-size: 16px;
+}
 .font_tnr{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -35,7 +38,7 @@ a{
 }
 .section_title{
     color: $main_text_color;
-    font-size: 22px;
+    font-size: 21px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -55,5 +58,5 @@ a{
 }
 .card_subtitle{
     font-size: 15px;
-    color: lighten($main_text_color, 20%);
+    color: lighten($main_text_color, 10%);
 }
