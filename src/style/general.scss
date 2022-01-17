@@ -27,11 +27,17 @@ a{
 .font_xs{
     font-size: 12px;
 }
-.font_tnw{
+.font_tnr{
     font-family: 'Times New Roman', Times, serif;
 }
 .main_text_color{
     color: $main_text_color;
+}
+.section_title{
+    color: $main_text_color;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 // GRAPHICS
@@ -40,4 +46,14 @@ a{
     background-color: $main_color;
     padding: 10px 25px;
     color: white;
+}
+
+//CARDS
+.card_title{
+    font-size: 25px;
+    color: $main_text_color;
+}
+.card_subtitle{
+    font-size: 15px;
+    color: lighten($main_text_color, 20%);
 }

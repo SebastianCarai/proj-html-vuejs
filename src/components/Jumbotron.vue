@@ -2,8 +2,8 @@
     <div class="jumbotron central_align">
         <div class="jumbo_content">
             <div class="orange_btn"> TODAY'S PICK </div>
-            <h1 class="jumbo_text font_tnw"> Food Corner: Top Japanese Restaurants for Sushi </h1>
-            <h3 class="mt-3 font_tnw">March 25, 2019</h3>
+            <h1 class="jumbo_text font_tnr"> Food Corner: Top Japanese Restaurants for Sushi </h1>
+            <h3 class="mt-3 font_tnr">March 25, 2019</h3>
         </div>
     </div>
 </template>
@@ -30,7 +30,7 @@ export default {
         position: relative;
         background-color: white;
         padding: 50px 70px;
-        border-radius: 10px;
+        border-radius: 15px;
         text-align: center;
         color: $main_text_color;
         width: 40%;

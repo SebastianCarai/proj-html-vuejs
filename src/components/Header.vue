@@ -29,7 +29,7 @@
             <div class="d-flex justify-content-center align-items-center mt-5">
                 <div>
                     <img src="../assets/img/avada-food-logo.png" alt="">
-                    <ul class="header_menu mt-5 mb-3">
+                    <ul class="header_menu my-3">
                         <li v-for="(li, index) in headerUl" :key="index" class="mx-4 main_text_color" :class="{active: li.isActive}"> <a href="#">{{li.text}}</a> </li>
                         <li class="mx-4 main_text_color"><i class="fas fa-search"></i></li>
                     </ul>
