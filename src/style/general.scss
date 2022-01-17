@@ -1,0 +1,30 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import './variables.scss';
+
+// CONTAINERS
+.container_65{
+    width: 65%;
+    margin: auto;
+}
+
+// GENERALS
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+// TEXTS
+.font_xs{
+    font-size: 12px;
+}
+.font_tnw{
+    font-family: 'Times New Roman', Times, serif;
+}
+.main_text_color{
+    color: $main_text_color;
+}
