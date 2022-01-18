@@ -1,8 +1,8 @@
 <template>
-    <div class="container_65 culinary_collection mt-5 mb-5">
+    <div class="container_65 culinary_collection mb-5">
         <!-- Intro titles -->
         <div class="my-5">
-            <h3 class="section_title mt-2 mb-4">POPULAR RECIPES</h3>
+            <h3 class="section_title mt-2 mb-4">CULINARY COLLECTION</h3>
             <p class="font_m">Aliquam erat volupat. Ut quis ligula a magna blandit finibus. Suspendisse maximus lacus non nunc lacinia lobortis</p>
         </div>
 
@@ -73,7 +73,8 @@ export default {
 @import '../style/general.scss';
 @import '../style/variables.scss';
 
-.culinary_collection{
+.culinary_collection.container_65{
+    margin-top: 150px;
     p{
         width: 50%;
         margin: auto;

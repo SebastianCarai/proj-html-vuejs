@@ -31,5 +31,11 @@ export default {
     img{
         width: 100%;
     }
+    .card_subtitle{
+        color: lighten($main_text_color, 10%);
+    }
+    p{
+        color: lighten($main_text_color, 20%);
+    }
 }
 </style>

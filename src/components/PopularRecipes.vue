@@ -8,7 +8,7 @@
 
         <!-- Main content -->
         <div class="d-flex justify-content-between">
-            <div class="my_half_col">
+            <div class="my_half_col card_col">
                 <Card100 v-for="(cardInfo, index) in popularRecipesArray" :key="index" :card100Info="cardInfo"  />
                 <div class="orange_btn mx-4"> LEARN MORE </div>
             </div>
@@ -71,6 +71,9 @@ export default {
         img{
             width: 100%;
         }
+    }
+    .card_col{
+        background-color: white;
     }
 }
 </style>
