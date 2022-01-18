@@ -2,19 +2,23 @@
     <main>
         <FoodieJournal />
         <PopularRecipes />
+        <CulinaryCollection />
     </main>
 </template>
 
 <script>
 import FoodieJournal from './FoodieJournal.vue';
 import PopularRecipes from './PopularRecipes.vue';
+import CulinaryCollection from './CulinaryCollection.vue';
+
 
 
 export default {
     name: 'Main',
     components: {
         FoodieJournal,
-        PopularRecipes
+        PopularRecipes,
+        CulinaryCollection
     },
     data: function(){
         return{
