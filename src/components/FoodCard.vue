@@ -1,8 +1,8 @@
 <template>
     <div class="food_card pb-4">
         <img :src="require(`../assets/img/${foodObject.imgPath}`)" alt="">
-        <h3 class="font_tnr card_title mt-3 mb-2"> {{ foodObject.cardText }} </h3>
-        <div class="card_subtitle">{{foodObject.cardCredits}}</div>
+        <h3 class="font_tnr card_title mt-3 mb-2 px-2"> {{ foodObject.cardText }} </h3>
+        <div class="card_subtitle px-2">{{foodObject.cardCredits}}</div>
     </div>
 </template>
 

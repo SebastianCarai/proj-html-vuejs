@@ -3,7 +3,7 @@
         <h3 class="section_title mt-2 mb-4">FOODIE JOURNAL</h3>
         <div class="d-flex justify-content-between">
             <div class="card_container" v-for="(singleInfo, index) in foodieJournalArray" :key="index">
-                <FoodCard :foodieArray="singleInfo" />
+                <FoodCard :foodObject="singleInfo" />
             </div>
         </div>
     </div>
