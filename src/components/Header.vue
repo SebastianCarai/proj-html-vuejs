@@ -30,7 +30,7 @@
                 <div>
                     <img src="../assets/img/avada-food-logo.png" alt="">
                     <ul class="header_menu my-3">
-                        <li v-for="(li, index) in headerUl" :key="index" class="mx-4 main_text_color" :class="{active: li.isActive}"> <a href="#">{{li.text}}</a> </li>
+                        <li v-for="(li, index) in headerUl" :key="index" class="mx-4 main_text_color option" :class="{active: li.isActive}"> <a href="#">{{li.text}}</a> </li>
                         <li class="mx-4 main_text_color"><i class="fas fa-search"></i></li>
                     </ul>
                 </div>
@@ -105,6 +105,10 @@ img{
         &.active{
             color: $main_color;
             border-bottom: 4px solid $main_color;
+        }
+        &.option:hover {
+            border-bottom: 4px solid $main_color;
+            color: $main_color;
         }
     }
 }
