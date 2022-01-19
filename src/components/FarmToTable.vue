@@ -97,6 +97,8 @@
                             <div class="tweet_date">{{tweet.date}}</div>
                         </div>
                     </div>
+
+                    <TweetCard />
                 </div>
 
             </div>
@@ -108,13 +110,15 @@
 <script>
 import Card100 from './Card100.vue'
 import FoodCard from './FoodCard.vue'
+import TweetCard from './TweetCard.vue'
 
 
 export default {
     name: 'FarmToTable',
     components:{
         Card100,
-        FoodCard
+        FoodCard,
+        TweetCard
     },
     data: function(){
         return{

@@ -21,7 +21,7 @@
                 <!-- Contacts -->
                 <div class="footer_col mid_col">
                     <div class="contacts_container">
-                        <h3 class="footer_title">CONTACT</h3>
+                        <h3 class="footer_title mb-5">CONTACT</h3>
 
                         <ul>
                             <li>
@@ -42,36 +42,15 @@
                     <div>
                         <h3 class="footer_title mx-3">GET APP</h3>
 
-                        <!-- GooglePlay link -->
-                        <div class="app_link my-4 d-flex align-items-center">
-                            <div>
-                                <i class="fas fa-play"></i>
-                            </div>
-
-                            <div class="mx-3">
-                                <div>
-                                    GET IT ON
-                                </div>
-                                <div class="where">
-                                    Google Play
-                                </div>
-                            </div>
+                        <div class="m-3">
+                            <a href="#">
+                                <img src="../assets/img/download-android.png" alt="Google Play">
+                            </a>
                         </div>
-
-                        <!-- AppStore link -->
-                        <div class="app_link d-flex align-items-center">
-                            <div>
-                                <i class="fab fa-apple"></i>
-                            </div>
-
-                            <div class="mx-3">
-                                <div>
-                                    GET IT ON
-                                </div>
-                                <div class="where">
-                                    App Store
-                                </div>
-                            </div>
+                        <div class="m-3">
+                            <a href="#">
+                                <img src="../assets/img/download-app-store.png" alt="App Store">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -161,23 +140,6 @@ footer{
                     font-size: 17px;
                     margin-left: 10px;
                 }
-            }
-        }
-
-        // App links
-        .app_link{
-            padding: 10px;
-            border: 2px solid #67615a;
-            border-radius: 10px;
-            color: #67615a;
-            i{
-                font-size: 40px;
-                &.fa-apple{
-                    font-size: 50px;
-                }
-            }
-            .where{
-                font-size: 30px;
             }
         }
     }
