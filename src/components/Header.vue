@@ -7,22 +7,7 @@
                     <a href="#" class="mx-3 font_xs">Download app <span class="ios_btn">iOS</span></a>
                     <a href="#" class="mx-3 font_xs">Advertise with us</a>
                 </div>
-                <div>
-                    <ul>
-                        <li class="d-inline-block">
-                            <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li class="d-inline-block">
-                            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-                        </li>
-                        <li class="d-inline-block">
-                            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
-                        </li>
-                        <li class="d-inline-block">
-                            <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
-                        </li>
-                    </ul>
-                </div>
+                <SocialLinks />
             </div>
 
             <!-- Logo and Menu -->
@@ -40,6 +25,8 @@
 </template>
 
 <script>
+import SocialLinks from './SocialLinks.vue'
+
 export default {
     name: 'Header',
     data: function(){
@@ -71,6 +58,9 @@ export default {
                 }
             ]
         }   
+    },
+    components:{
+        SocialLinks
     }
 }
 </script>
@@ -88,10 +78,7 @@ export default {
         color: white;
         border-radius: 5px;
     }
-    i{
-        color: $secondary_text_color;
-        margin: 0 15px;
-    }
+
 }
 img{
     display: block;

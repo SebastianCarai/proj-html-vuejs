@@ -4,6 +4,7 @@
         <PopularRecipes />
         <CulinaryCollection />
         <FarmToTable />
+        <Banner />
     </main>
 </template>
 
@@ -12,6 +13,7 @@ import FoodieJournal from './FoodieJournal.vue';
 import PopularRecipes from './PopularRecipes.vue';
 import CulinaryCollection from './CulinaryCollection.vue';
 import FarmToTable from './FarmToTable.vue';
+import Banner from './Banner.vue';
 
 
 
@@ -22,7 +24,8 @@ export default {
         FoodieJournal,
         PopularRecipes,
         CulinaryCollection,
-        FarmToTable
+        FarmToTable,
+        Banner
     },
     data: function(){
         return{
